@@ -14,6 +14,11 @@
   - [Seminar 2](https://youtu.be/05iTAT_t6cI)
   - [Antipatterns and refactoring](https://www.youtube.com/playlist?list=PLHhi8ymDMrQb3PVcPFAUI-ZgtAMkpq9yV)
   - See examples in `/Example` directory
+- For those who have projects instead of this exams tasks:
+  - You need to create screencast video presentation of codebase and project functionality: 15-30 minutes length
+  - Upload it to Youtube, Google disk or other hosting with video support and add link to this video in your project repository
+- For those who want technical interview:
+  - Write your request in our telegram group ASAP and I'll schedule call
 - Fork this repository: https://github.com/HowProgrammingWorks/Winter-2024-Exams
 - Clone this repository to your machine or you can do everything in Github interface or integrated VSCode IDE
 - Create branch `exams`
@@ -25,8 +30,8 @@
   - Prettier to optimize style and code layout: https://prettier.io
   - Here is recommended eslint config: https://github.com/HowProgrammingWorks/API/blob/master/.eslintrc.json
 - Use tests from `.tests.js` files to check tasks functionality
-  - For example run: `node size.test.js`
-  - Output: `Test size.js: Passed: 11 of 11`
+  - For example run: `node size.test.js` to check `size.js` or `npm t` (to check all taks)
+  - Output example: `Test size.js: Passed: 11 of 11`
   - If tests fails you will see something like: `Case: size(23456789) -> "23 mb", expected: "123 mb"`
 - Your task is to improve (respect list priority):
   - Code readability
