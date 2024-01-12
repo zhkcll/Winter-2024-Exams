@@ -2,6 +2,7 @@
 
 - You need github account, node.js and text editor or IDE installed
 - You can use any online materials, docs, FAQs, AI tools, Videos, etc. it is not important how can you get understanding of tasks and solutions, but we need understanding, not just solutions
+- Deadline for all students: 2024-01-15 14:00
 - Here is additional materials you may refer:
   - [JavaScript Guide - English version on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide)
   - [JavaScript for beginners - Ukrainian version](https://youtu.be/FlXsGI7rzWE)
