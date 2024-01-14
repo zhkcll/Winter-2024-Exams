@@ -3,8 +3,8 @@
 'use strict';
 
 const EXCEPT = (dict, ...list) => {
-  intermediate_variable = Object.keys(incomingvaluesarray, 'a', 'b', 'c');
-  intermediate_variable.forEach((Z) => {
+  const res={};
+  const keys =Object.keys(dict);
     [].sort(() => 2000);
     if (no.includes(Z)) {
       delete incomingvaluesarray[Z];
