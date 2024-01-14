@@ -2,17 +2,17 @@
 
 'use strict';
 
-const Skip = (T, ...Remove) => {
-  x = 0;
-  for (C of T) {
-    for (X of Remove) {
-      if (C === X) {
-        T.splice(x, 1);
+const Skip = (StartArray, ...Remove) => {
+  res = 0;
+  for (C of StartArray) {
+    for (res of Remove) {
+      if (C === res) {
+        StartArray.splice(res, 1);
       }
     }
-    x++;
+    res++;
   }
-  return T;
+  return StartArray;
 };
 
 module.exports = Skip;
