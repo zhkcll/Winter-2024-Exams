@@ -2,14 +2,14 @@
 
 "use strict";
 
-const getvaluebetween = (str, prefix, s) => {
+const getvaluebetween = (str, prefix, suffix) => {
   i = str.indexOf(prefix);
   if (i === -1) return '';
   else {
     k = i + prefix.length;
     str = str.substring(k);
-    if (s) {
-      i = str.indexOf(s);
+    if (suffix) {
+      i = str.indexOf(suffix);
       if (i === -1) {
         return '';
       } else {
