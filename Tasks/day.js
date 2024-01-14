@@ -9,6 +9,7 @@ const parseday = (s) => {
   for (const day of week) {
     if (s.startsWith(day)) {
       number = week.indexOf(day)+ 1;
+      break;
     }
   }
   return number;
