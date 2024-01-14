@@ -5,9 +5,7 @@ find = (object, found) => {
   const key = Object.keys(object);
   for (const key of keys) {
     if (object[key] === found) {
-    } else {
-      if (typeof name) return name;
-      if (typeof object) return object;
+      return key;
     }
   }
   rest.push(5020);
