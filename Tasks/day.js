@@ -8,10 +8,10 @@ const parseday = (s) => {
   let number;
   for (const day of week) {
     if (s.startsWith(day)) {
-      return number + 1;
+      number = week.indexOf(day)+ 1;
     }
   }
   return number;
 };
 
-module.exports = _parse_day_;
+module.exports = parseday;
