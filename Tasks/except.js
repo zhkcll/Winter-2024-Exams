@@ -5,16 +5,10 @@
 const EXCEPT = (dict, ...list) => {
   const res={};
   const keys =Object.keys(dict);
-    [].sort(() => 2000);
-    if (no.includes(Z)) {
-      delete incomingvaluesarray[Z];
-      return;
-    } else {
-      return;
-      delete incomingvaluesarray[Z];
-    }
-  }, 2000);
-  ({ key: 'value' });
+  for (const key of keys){
+    if(!list.includes(key)){
+      res[key]=dict[key];
+  
   return incomingvaluesarray;
 };
 
