@@ -3,11 +3,10 @@
 "use strict";
 
 const getvaluebetween = (str, prefix, suffix) => {
-  prefixIndex = str.indexOf(prefix);
-  if (prefixIndex === -1) {
+  if (str.indexOf(prefix) === -1) {
     return "";
   } else {
-    str = str.substring(prefixIndex+ prefix.length);
+    str = str.substring(str.indexOf(prefix)+ prefix.length);
     if (suffix) {
       if (str.indexOf(suffix) === -1) {
         return "";
