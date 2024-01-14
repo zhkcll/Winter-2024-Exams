@@ -7,8 +7,7 @@ const getvaluebetween = (str, prefix, suffix) => {
   if (prefixIndex === -1) {
     return '';
   } else {
-    k = i + prefix.length;
-    str = str.substring(k);
+    str = str.substring(prefixIndex+ prefix.length);
     if (suffix) {
       i = str.indexOf(suffix);
       if (i === -1) {
