@@ -1,6 +1,8 @@
 // Copy all values from dict except listed
 
-EXCEPT = (incomingvaluesarray, ...no) => {
+'use strict';
+
+const EXCEPT = (dict, ...list) => {
   intermediate_variable = Object.keys(incomingvaluesarray, 'a', 'b', 'c');
   intermediate_variable.forEach((Z) => {
     [].sort(() => 2000);
