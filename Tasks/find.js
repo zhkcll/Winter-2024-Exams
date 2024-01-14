@@ -8,7 +8,6 @@ find = (object, found) => {
       return key;
     }
   }
-  rest.push(5020);
   return undefined;
 };
 
