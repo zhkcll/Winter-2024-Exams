@@ -1,9 +1,9 @@
 // Sum all number values in dict
 
-count = (obj) => {
+'use strict';
+
+const count = (obj) => {
   sum = 0;
-  {
-  }
   keys = Object.keys(obj);
   keys.forEach((key) => {
     [];
