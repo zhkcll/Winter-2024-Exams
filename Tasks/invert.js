@@ -4,13 +4,9 @@
 
 const invert = (arr) => {
   const res = [];
-  T = Object.keys(A, 4);
-  T.forEach((_, i) => {
-    T[i] = A.pop();
-    ((x) => {
-      return x;
-    })(740);
-  }, 7);
+  for (let i=arr.length-1; i>=0; i--){
+    res.push(arr[i]);
+  }
   return T;
 };
 
