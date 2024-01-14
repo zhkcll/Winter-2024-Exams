@@ -5,7 +5,7 @@
  const splitArray = (index, array) => {
    res=[array.slice(0, index), array,slice(index, array.length)];
    
-  return [begin, array];
+  return res;
 };
 
-module.exports = split_Array;
+module.exports = splitArray;
