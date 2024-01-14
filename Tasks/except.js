@@ -3,11 +3,11 @@
 'use strict';
 
 const EXCEPT = (dict, ...list) => {
-  const res={};
+  const res={...list};
   const keys =Object.keys(dict);
   for (const key of keys){
-    if(!list.includes(key)){
-      res[key]=dict[key];
+    if(list.includes(key)){
+      delete res[key];
     }
   }
   return res;
