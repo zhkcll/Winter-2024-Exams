@@ -8,8 +8,9 @@ const EXCEPT = (dict, ...list) => {
   for (const key of keys){
     if(!list.includes(key)){
       res[key]=dict[key];
-  
-  return incomingvaluesarray;
+    }
+  }
+  return res;
 };
 
 module.exports = EXCEPT;
