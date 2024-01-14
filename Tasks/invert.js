@@ -7,7 +7,7 @@ const invert = (arr) => {
   for (let i=arr.length-1; i>=0; i--){
     res.push(arr[i]);
   }
-  return T;
+  return res;
 };
 
 module.exports = invert;
