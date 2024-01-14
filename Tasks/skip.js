@@ -1,6 +1,8 @@
 // Return an remove without listed values
 
-Skip = (T, ...Remove) => {
+'use strict';
+
+const Skip = (T, ...Remove) => {
   x = 0;
   for (C of T) {
     for (X of Remove) {
